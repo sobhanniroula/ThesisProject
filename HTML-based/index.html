@@ -1,0 +1,156 @@
+<!doctype HTML>
+
+<html lang="en">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<head>
+    <title> MOVEMANDU - A perfect platform for finding rooms in Kathmandu </title>
+
+    <link rel="shortcut icon" href="img/truck.png">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+    <!-- Javascripts -->
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>>
+
+
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+
+    <!-- Bootstrap Javasctipt files -->
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/npm.js"></script>
+
+    <!-- Bootstrap CDN
+    <!-- Latest compiled and minified CSS --/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme --/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript --/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    -->
+
+</head>
+
+
+
+
+<body background="img/background 2.png" width="100%">
+
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-default" id="navigator">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img src="img/logo 2.png" width="100px" height="100px"> </a>
+                </div>
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active"> <a href="#"> HOME </a> </li>
+                    <li><a href="tenants.html"> TENANTS </a></li>
+                    <li><a href="owners.html"> OWNERS </a></li>
+                    <li><a href="contact.html"> CONTACT </a></li>
+                    <li><a href="aboutus.html"> ABOUT US </a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> SIGN UP </a></li>
+                    <li><a href="loginpage.html"><span class="glyphicon glyphicon-log-in"></span> LOGIN </a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+        <!-- Heading Part -->
+        <div id="heading" class="container">
+            <h3> MOVEMANDU - A perfect platform for searching rooms and apartments in the Kathmandu Valley!! </h3>
+        </div>
+
+
+
+        <!-- Carousel Part -->
+
+        <div id="myCarousel" class="carousel slide container" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrappers for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/carousel/kathmandu_city_min.jpg" alt="Kathmandu City">
+                </div>
+                <div class="item">
+                    <img src="img/carousel/cherry_blossoms_min.jpg" alt="Cherry Blossoms">
+                </div>
+                <div class="item">
+                    <img src="img/carousel/sandhya_aarati_min.jpg" alt="Pashupati Temple Evening Prayer">
+                </div>
+            </div>
+
+            <!-- Left and Right Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+
+        <!-- Map -->
+
+        <div class="container" id="googleMap" style="width:100%;height:400px;">GOOGLE MAP</div>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt00p9i0sR735XbC6WV6JOYf86693_cdY&callback=myMap"></script>
+
+        <!-- SiteMap -->
+        <div class="container">
+            <UL>
+                <li> Articles
+                    <ul>
+                        <li> Commentary</li>
+                        <li> Reviews</li>
+                        <li> Videos</li>
+                    </ul>
+                    <li>Contributors</li>
+                    <ul>
+                        <li>Contributor 1</li>
+                        <li>Contributor 2</li>
+                        <li>Contributor 3</li>
+                    </ul>
+                    <li>Contests</li>
+                    <li>Community</li>
+                    <ul>
+                        <li>Forum</li>
+                        <li>Arcade</li>
+                        <ul>
+                            <li>Arcade Game 1</li>
+                            <li>Arcade Game 1</li>
+                            <li>Arcade Game 1</li>
+                        </ul>
+                    </ul>
+            </UL>
+        </div>
+
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,34 @@
+body {}
+
+.navbar {
+    height: 60px;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    max-height: 200%;
+}
+
+h3 {
+    font-style: none;
+}
+
+#heading {
+    background-color: #9933ff;
+    color: white;
+    margin: 30px auto;
+    padding: 2px;
+    text-align: center;
+    text-decoration: overline underline;
+}
+
+#googleMap {
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: line-through;
+}

@@ -1,0 +1,21 @@
+even background image was added by javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conclusion:
+It is easier to use venilla one for a small project, but react for a bigger and multiple projects
+
+
+
+
+
