@@ -1,4 +1,7 @@
-body {}
+body {
+    background-image: url("../img/background 2.png");
+    width: 100%;
+}
 
 .navbar {
     height: 60px;
